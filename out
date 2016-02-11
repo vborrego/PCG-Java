@@ -1,0 +1,101 @@
+[32mCommand execution time
+[0mtime COMMAND
+
+[32mBackup terminal history to history.dat
+[0mhistory > history.dat
+
+[32mClear terminal history
+[0mhistory -c
+
+[32mVideo merging:
+[0mMP4Box -cat video1.mp4 -cat video2.mp4 -cat video3.mp4 -new outvideo.mp4
+
+[32mExample using OpenCV
+[32m- Change directory to following location
+[0mcd /usr/local/share/OpenCV/samples/c
+[32m- Execute following commands
+[0msudo chmod +x build_all.sh
+[0msudo ./build_all.sh
+[0m./facedetect --cascade="/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml" lena.jpg
+
+[32mExample to compile using OpenCV:
+[0mclear && g++ 'pkg-config opencv --cflags' -Wall novo.cpp -o mycode 'pkg-config opencv --libs'
+
+[32mOpen Encrypted Home Folder in LiveCD/USB:
+[0msudo mount /dev/sda1 /mnt
+[0msudo cd /media/mint/DRIVE_NAME/
+[0mmsudo ecryptfs-recover-private
+
+[32mTo run Boot Repair.
+[0msudo boot-repair &
+
+[32mTo run Grub Customizer.
+[0msudo grub-customizer &
+
+[32mGit commands.
+[32m1-Create a new git repository in this directory.
+[0mgit init
+[32m2-Configure git repository to pull or push from/to this directory.
+[0mgit config --global user.name "YOUR_GITHUB_USERNAME"
+[0mgit config --global user.email "YOUR_GITTHUB_E-MAIL"
+[0mgit remote add origin URL_TO_THE_GITHUB_PROJECT.git
+[32m3-Push (upload) files in this directory to gitHub repository.
+[0mgit add .
+[0mgit commit -m "MESSAGE_THAT_WILL_APPEAR_IN_GIT_FOR_THIS_COMMIT"
+[0mgit push origin master
+[32m4-Pull (download) files to this directory from gitHub repository.
+[0mgit pull origin master
+[32m5-Remove folders from gitHub repository but keep them locally.
+[0mgit rm -r --cached FOLDER
+[0mgit commit -m "MESSAGE_THAT_WILL_APPEAR_IN_GIT_FOR_THIS_COMMIT"
+[0mgit push origin master
+
+[32mCommand execution time
+[0mtime COMMAND
+
+[32mBackup terminal history to history.dat
+[0mhistory > history.dat
+
+[32mClear terminal history
+[0mhistory -c
+
+[32mVideo merging:
+[0mMP4Box -cat video1.mp4 -cat video2.mp4 -cat video3.mp4 -new outvideo.mp4
+
+[32mExample using OpenCV
+[0mcd ~/opencv/samples/
+[0msudo cmake .
+[0msudo make -j $(nproc)
+[0mcd cpp/
+[0m./cpp-example-facedetect ../data/lena.jpg
+[0m./cpp-example-houghlines ../data/pic1.png
+
+[32mOpen Encrypted Home Folder in LiveCD/USB:
+[0msudo mount /dev/sda1 /mnt
+[0msudo cd /media/mint/DRIVE_NAME/
+[0mmsudo ecryptfs-recover-private
+
+[32mTo run Boot Repair.
+[0msudo boot-repair &
+
+[32mTo run Grub Customizer.
+[0msudo grub-customizer &
+
+[32mGit commands.
+[32m1-Create a new git repository in this directory.
+[0mgit init
+[32m2-Configure git repository to pull or push from/to this directory.
+[0mgit config --global user.name "YOUR_GITHUB_USERNAME"
+[0mgit config --global user.email "YOUR_GITTHUB_E-MAIL"
+[0mgit remote add origin URL_TO_THE_GITHUB_PROJECT.git
+[32m3-Push (upload) files in this directory to gitHub repository.
+[0mgit add .
+[0mgit commit -m "MESSAGE_THAT_WILL_APPEAR_IN_GIT_FOR_THIS_COMMIT"
+[0mgit push origin master
+[32m4-Pull (download) files to this directory from gitHub repository.
+[0mgit pull origin master
+[32m5-Remove folders from gitHub repository but keep them locally.
+[0mgit rm -r --cached FOLDER
+[0mgit commit -m "MESSAGE_THAT_WILL_APPEAR_IN_GIT_FOR_THIS_COMMIT"
+[0mgit push origin master
+
