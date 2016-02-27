@@ -1,9 +1,0 @@
-*~
-.metadata
-*.class
-*.jar
-*.war 
-*.ear 
-*.zip
-target/
-
