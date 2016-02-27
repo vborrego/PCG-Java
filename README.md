@@ -23,7 +23,8 @@ fairly self explanatory.
 
 A configured Netbeans project is provided. Just 'build' and 'run', the default 
 'Main class' is the 'pcg32_demo', with the run arguments '-r' (random seed) 
-and 1 (generation rounds). 
+and 1 (generation rounds). A maven project is also provided cortesy of user 
+https://github.com/vborrego.
 
 The code is written in Java 8, and was tested with Oracle Java 8 JRE, in both 
 Windows 7 64bits and Linux Mint 17.3 64bits operative systems.
